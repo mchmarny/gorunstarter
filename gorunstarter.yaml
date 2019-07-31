@@ -1,0 +1,19 @@
+openapi: 3.0.2
+servers:
+  - url: "https://gorunstarter-2gtouos2pq-uc.a.run.app"
+info:
+  description: The gorunstarter service returns the configured message.
+  version: 0.0.1
+  title: gorunstarter service
+paths:
+  /:
+    get:
+      summary: Print message
+      operationId: greating
+      responses:
+        "200":
+          description: successful operation
+          content:
+            text/plain:
+              schema:
+                type: string
