@@ -1,10 +1,10 @@
 # gorunstarter
 
-Simple [Cloud Run](https://cloud.google.com/run/) starter project for `go` meant to be used as a GitHub repository template.
+Simple [Cloud Run](https://cloud.google.com/run/) starter project for `go` meant to be used as a GitHub repository template to speed up new Cloud Run service development by removing the need to re-create the common "boilerplate" code and simplifying common steps.
 
 ## Audience
 
-For [Cloud Run](https://cloud.google.com/run/) developers wanting to quickly start their `go` service development from a well-structured template with minimal amount of external dependencies.
+For developers wanting to quickly start their `go` service development on [Cloud Run](https://cloud.google.com/run/) from a well-structured template with minimal amount of external dependencies.
 
 > This is not an official or standard Cloud Run project layout, just a set of common initial bits that are helpful to me.
 
