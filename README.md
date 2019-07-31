@@ -8,22 +8,11 @@ For developers wanting to quickly start their `go` service development on [Cloud
 
 > This is not an official or standard Cloud Run project layout, just a set of common initial bits that are helpful to me.
 
-## Setup
+## Usage
 
-1. Fork this repo into your account
-
-![](https://github-images.s3.amazonaws.com/help/bootcamp/Bootcamp-Fork.png)
-
-2. In your newly forked repo settings, check the **Template repository** box
-
-![](https://help.github.com/assets/images/help/repository/template-repository-checkbox.png)
-
-3. Whenever creating a new Cloud Run service, just "use this template"
+To use this template when creating a new Cloud Run service, just click on the "use this template" button and follow the prompts.
 
 ![](https://help.github.com/assets/images/help/repository/use-this-template-button.png)
-
-
-## Usage
 
 The `gorunstarter` includes the three basic steps of Cloud Run developer workflow. You can click on the below links to see the content of these commands.
 
