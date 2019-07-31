@@ -10,7 +10,7 @@ This repository is meant to be for developers starting with [Cloud Run](https://
 
 The `gorunstarter` demonstrates the initial developer workflow of creating new project and deploying it to Cloud Run.
 
-* [Building image](bin/build)
+* [Building image (`bin/build`)](bin/build)
 * [Creating service account](bin/account)
 * [Deploying service](bin/deploy)
 
