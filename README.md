@@ -18,7 +18,7 @@ Your newly created project based on the `gorunstarter` template will also includ
 
 > For complete walk-through build and deploy see the [Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts/build-and-deploy)
 
-[Building a container image](bin/build-container-image) which submits job to Cloud Build using the included [Dockerfile](./Dockerfile) and results in versioned container image URI which will be used to deploy to Cloud Run.
+[Building a container image](bin/build-container-image) which submits job to Cloud Build using the included [Dockerfile](./Dockerfile) and results in versioned, non-root container image URI which will be used to deploy to Cloud Run.
 
 ```shell
 bin/build-container-image
