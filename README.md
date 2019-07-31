@@ -1,6 +1,6 @@
 # gorunstarter
 
-Simple [Cloud Run](https://cloud.google.com/run/) `go` starter project meant to be used as a GitHub repository template.
+Simple [Cloud Run](https://cloud.google.com/run/) starter project for `go` meant to be used as a GitHub repository template.
 
 ## Audience
 
