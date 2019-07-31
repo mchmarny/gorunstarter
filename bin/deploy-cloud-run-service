@@ -9,5 +9,5 @@ gcloud beta run deploy gorunstarter \
 	--platform managed \
 	--region us-central1 \
 	--set-env-vars "MESSAGE=Hello World" \
-    --service-account gorunstarter-sa@${PROJECT}.iam.gserviceaccount.com
+	--service-account gorunstarter-sa@${PROJECT}.iam.gserviceaccount.com
 
