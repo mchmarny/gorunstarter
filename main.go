@@ -10,21 +10,23 @@ import (
 
 func main() {
 
-	// handler
+	log.Print("Hello service started")
+
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprint(w, "hello")
+		log.Print("Hello service invoked")
+		message := os.Getenv("MESSAGE")
+		fmt.Fprintf(w, "%s\n", message)
 	})
 
-	// port
+	// Set HTTP listening port
+	// https://cloud.google.com/run/docs/reference/container-contract#port
 	httpPort := os.Getenv("PORT")
 	if httpPort == "" {
 		httpPort = "8080"
 	}
 
-	// host
 	hostPost := net.JoinHostPort("0.0.0.0", httpPort)
 
-	// server
 	if err := http.ListenAndServe(hostPost, nil); err != nil {
 		log.Fatal(err)
 	}

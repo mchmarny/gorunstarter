@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# GCP project name
+PROJECT=$(gcloud config get-value project)
+
+gcloud beta run deploy gorunstarter \
+	--allow-unauthenticated \
+	--image gcr.io/$PROJECT/gorunstarter:0.0.1 \
+	--platform managed \
+	--region us-central1 \
+	--set-env-vars "MESSAGE=Hello World" \
+    --service-account gorunstarter-sa@${PROJECT}.iam.gserviceaccount.com
+
