@@ -1,10 +1,12 @@
 # gorunstarter
 
-Simple [Cloud Run](https://cloud.google.com/run/) golang project meant to be used as a GitHub repository template.
+Simple [Cloud Run](https://cloud.google.com/run/) `go` starter project meant to be used as a GitHub repository template.
 
 ## Audience
 
-This repository is meant [Cloud Run](https://cloud.google.com/run/) developers wanting to quickly start with their go service development from well-structured template. It's by no means an official standard project layout but rather it focuses on balance between ease of use and maximum pre-configured code and tools.
+For [Cloud Run](https://cloud.google.com/run/) developers wanting to quickly start their `go` service development from a well-structured repo template.
+
+> This is not an official or standard Cloud Run project layout, just a set of common initial bits that are helpful to me
 
 ## Setup
 
@@ -51,5 +53,6 @@ To cleanup all resources created by this sample execute
 bin/cleanup
 ```
 
+## Disclaimer
 
-
+This is my personal project and it does not represent my employer. I take no responsibility for issues caused by this code. I do my best to ensure that everything works, but if something goes wrong, my apologies is all you will get.
