@@ -1,22 +1,37 @@
 # gorunstarter
 
-Simple [Cloud Run](https://cloud.google.com/run/) golang starter project
+Simple [Cloud Run](https://cloud.google.com/run/) golang project meant to be used as a GitHub repository template.
 
 ## Audience
 
-This repository is meant to be for developers starting with [Cloud Run](https://cloud.google.com/run/).
+This repository is meant [Cloud Run](https://cloud.google.com/run/) developers wanting to quickly start with their go service development from well-structured template. It's by no means an official standard project layout but rather it focuses on balance between ease of use and maximum pre-configured code and tools.
+
+## Setup
+
+1. Fork this repo into your account
+
+![](https://github-images.s3.amazonaws.com/help/bootcamp/Bootcamp-Fork.png)
+
+2. In your newly forked repo settings, check the Template repository box
+
+![](https://help.github.com/assets/images/help/repository/template-repository-checkbox.png)
+
+3. Whenever creating a new Cloud Run service, just "use this template"
+
+![](https://help.github.com/assets/images/help/repository/use-this-template-button.png)
+
 
 ## Usage
 
-The `gorunstarter` demonstrates the initial developer workflow of creating new project and deploying it to Cloud Run.
+The `gorunstarter` includes the three basic steps of Cloud Run developer workflow:
 
-[Building image](bin/build-container-image)
+[Building a container image](bin/build-container-image)
 
 ```shell
 bin/build-container-image
 ```
 
-[Creating service account](bin/create-service-account)
+[Creating a service account for Cloud Run service](bin/create-service-account)
 
 ```shell
 bin/create-service-account
