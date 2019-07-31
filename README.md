@@ -6,7 +6,7 @@ Simple [Cloud Run](https://cloud.google.com/run/) starter project for `go` meant
 
 For [Cloud Run](https://cloud.google.com/run/) developers wanting to quickly start their `go` service development from a well-structured template with minimal amount of external dependencies.
 
-> This is not an official or standard Cloud Run project layout, just a set of common initial bits that are helpful to me
+> This is not an official or standard Cloud Run project layout, just a set of common initial bits that are helpful to me.
 
 ## Setup
 
@@ -25,21 +25,23 @@ For [Cloud Run](https://cloud.google.com/run/) developers wanting to quickly sta
 
 ## Usage
 
-The `gorunstarter` includes the three basic steps of Cloud Run developer workflow. You can click on the below links to see the content of these commands:
+The `gorunstarter` includes the three basic steps of Cloud Run developer workflow. You can click on the below links to see the content of these commands.
 
-[Building a container image](bin/build-container-image)
+> For complete walk-through build and deploy see the [Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts/build-and-deploy)
+
+[Building a container image](bin/build-container-image) which submits job to Cloud Build using the included [Dockerfile](./Dockerfile) and results in versioned container image URI which will be used to deploy to Cloud Run.
 
 ```shell
 bin/build-container-image
 ```
 
-[Creating a service account for Cloud Run service](bin/create-service-account)
+[Creating a service account](bin/create-service-account) which configures least privilege IAM service account which identity the deployed Cloud Run service will run under.
 
 ```shell
 bin/create-service-account
 ```
 
-[Deploying Cloud Run service](bin/deploy-cloud-run-service)
+[Deploying Cloud Run service](bin/deploy-cloud-run-service) which deploys public (i.e. unauthenticated) Cloud Run service configured with environment variable and service account identity using the previously built container image.
 
 ```shell
 deploy-cloud-run-service
