@@ -25,7 +25,7 @@ For [Cloud Run](https://cloud.google.com/run/) developers wanting to quickly sta
 
 ## Usage
 
-The `gorunstarter` includes the three basic steps of Cloud Run developer workflow:
+The `gorunstarter` includes the three basic steps of Cloud Run developer workflow. You can click on the below links to see the content of these commands:
 
 [Building a container image](bin/build-container-image)
 
