@@ -44,7 +44,7 @@ bin/create-service-account
 [Deploying Cloud Run service](bin/deploy-cloud-run-service) which deploys public (i.e. unauthenticated) Cloud Run service configured with environment variable and service account identity using the previously built container image.
 
 ```shell
-deploy-cloud-run-service
+bin/deploy-cloud-run-service
 ```
 
 ## Cleanup
