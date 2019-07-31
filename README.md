@@ -4,7 +4,7 @@ Simple [Cloud Run](https://cloud.google.com/run/) `go` starter project meant to 
 
 ## Audience
 
-For [Cloud Run](https://cloud.google.com/run/) developers wanting to quickly start their `go` service development from a well-structured repo template.
+For [Cloud Run](https://cloud.google.com/run/) developers wanting to quickly start their `go` service development from a well-structured template with minimal amount of external dependencies.
 
 > This is not an official or standard Cloud Run project layout, just a set of common initial bits that are helpful to me
 
