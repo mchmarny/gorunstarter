@@ -14,7 +14,7 @@ For developers wanting to quickly start their `go` service development on [Cloud
 
 ![](https://github-images.s3.amazonaws.com/help/bootcamp/Bootcamp-Fork.png)
 
-2. In your newly forked repo settings, check the Template repository box
+2. In your newly forked repo settings, check the **Template repository** box
 
 ![](https://help.github.com/assets/images/help/repository/template-repository-checkbox.png)
 
