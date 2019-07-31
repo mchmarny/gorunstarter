@@ -14,7 +14,7 @@ To use this template when creating a new Cloud Run service, just click on the "u
 
 ![](https://help.github.com/assets/images/help/repository/use-this-template-button.png)
 
-The `gorunstarter` includes the three basic steps of Cloud Run developer workflow. You can click on the below links to see the content of these commands.
+Your newly created project based on the `gorunstarter` template will also include the three basic steps of Cloud Run developer workflow. You can click on the below links to see the content of these commands.
 
 > For complete walk-through build and deploy see the [Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts/build-and-deploy)
 
