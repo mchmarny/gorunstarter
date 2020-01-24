@@ -2,4 +2,4 @@
 
 echo $(gcloud beta run services describe gorunstarter \
     --region us-central1 \
-    --format="value(status.domain)")
+    --format="value(status.url)")
